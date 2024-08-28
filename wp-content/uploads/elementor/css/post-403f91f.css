@@ -1,0 +1,66 @@
+.elementor-kit-403{--e-global-color-primary:#6EC1E4;--e-global-color-secondary:#54595F;--e-global-color-text:#7A7A7A;--e-global-color-accent:#61CE70;--e-global-color-911cb2d:#ABABAB;--e-global-color-2ec5a5b:#343A40;--e-global-color-ed75fc9:#A0C851;--e-global-color-cff4c50:#EC3DA9;--e-global-color-2bb332b:#30AEC6;--e-global-color-18d8a68:#5D7FC6;--e-global-color-24c713c:#F9FCFE;--e-global-color-0821d3e:#F28D00;--e-global-color-925cf11:#DF006E;--e-global-color-c46a690:#15444D;--e-global-color-35908ab:#30AEC6;--e-global-color-c3f5748:#5D7FC6;--e-global-color-9f2685a:#15444D;--e-global-color-aa82326:#60B16C;--e-global-color-e044129:#CBD9C8;--e-global-color-fd2bb7d:#F7F5BC;--e-global-color-c77f66b:#F1EE8E;--e-global-color-aafba4e:#DFE054;--e-global-typography-primary-font-family:"Roboto";--e-global-typography-primary-font-weight:600;--e-global-typography-secondary-font-family:"Roboto Slab";--e-global-typography-secondary-font-weight:400;--e-global-typography-text-font-family:"Roboto";--e-global-typography-text-font-weight:400;--e-global-typography-accent-font-family:"Roboto";--e-global-typography-accent-font-size:24px;--e-global-typography-accent-font-weight:600;color:#333333;font-family:"Open Sans", Sans-serif;font-size:16px;font-weight:normal;text-transform:none;font-style:normal;text-decoration:none;line-height:1.6em;letter-spacing:0px;background-color:#FFFFFF;}.elementor-kit-403 a{color:#2C59B8;}.elementor-kit-403 h1{color:#000000;font-family:"Roboto Slab", Sans-serif;font-size:50px;font-weight:normal;text-transform:none;font-style:normal;text-decoration:none;line-height:1.4em;}.elementor-kit-403 h2{color:#000000;font-family:"Roboto Slab", Sans-serif;font-size:35px;font-weight:normal;text-transform:none;font-style:normal;text-decoration:none;line-height:1.4em;}.elementor-kit-403 h3{color:#000000;font-family:"Roboto Slab", Sans-serif;font-size:30px;font-weight:normal;text-transform:none;font-style:normal;text-decoration:none;line-height:1.4em;}.elementor-kit-403 h4{color:#000000;font-family:"Roboto Slab", Sans-serif;font-size:25px;font-weight:normal;text-transform:none;font-style:normal;text-decoration:none;line-height:1.4em;letter-spacing:0px;}.elementor-kit-403 h5{color:#000000;font-family:"Roboto Slab", Sans-serif;font-size:22px;font-weight:normal;text-transform:none;font-style:normal;text-decoration:none;line-height:1.4em;letter-spacing:0px;}.elementor-kit-403 h6{color:#000000;font-family:"Roboto Slab", Sans-serif;font-size:18px;font-weight:normal;text-transform:none;font-style:normal;text-decoration:none;line-height:1.4em;letter-spacing:0.3px;word-spacing:1px;}.elementor-kit-403 button,.elementor-kit-403 input[type="button"],.elementor-kit-403 input[type="submit"],.elementor-kit-403 .elementor-button{font-family:"Open Sans", Sans-serif;font-size:14px;font-weight:bold;text-transform:uppercase;font-style:normal;text-decoration:none;line-height:1em;color:#FFFFFF;background-color:#343A40;border-radius:50px 50px 50px 50px;padding:12px 25px 12px 25px;}.elementor-kit-403 button:hover,.elementor-kit-403 button:focus,.elementor-kit-403 input[type="button"]:hover,.elementor-kit-403 input[type="button"]:focus,.elementor-kit-403 input[type="submit"]:hover,.elementor-kit-403 input[type="submit"]:focus,.elementor-kit-403 .elementor-button:hover,.elementor-kit-403 .elementor-button:focus{color:#FFFFFF;background-color:#2CB3E9;}.elementor-kit-403 input:not([type="button"]):not([type="submit"]),.elementor-kit-403 textarea,.elementor-kit-403 .elementor-field-textual{padding:10px 20px 10px 20px;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1140px;}.e-con{--container-max-width:1140px;}.elementor-widget:not(:last-child){margin-block-end:20px;}.elementor-element{--widgets-spacing:20px 20px;}{}h1.entry-title{display:var(--page-title-display);}.elementor-kit-403 e-page-transition{background-color:#FFBC7D;}@media(max-width:1024px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:1024px;}.e-con{--container-max-width:1024px;}}@media(max-width:767px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:767px;}.e-con{--container-max-width:767px;}}/* Start custom CSS *//*
+ * CTA boxes on all section landing pages.
+ */
+.elementor-cta--skin-classic {
+    max-width: 330px!important;
+    background-color: #F9FCFE;
+}
+@media (max-width:767px) {
+    .elementor-cta--skin-classic {
+        max-width: 100%!important;
+    }
+}
+.mw-content a {
+    text-decoration: none;
+}
+/*
+ * Old landing pages
+ */
+.content-type-landing_pages .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.content-type-landing_pages .col-md-4 {
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 60px
+}
+
+.content-type-landing_pages .col-md-4 h3 a {
+    text-decoration: none;
+    font-size:22px;
+    color:#3a3f45;
+}
+.content-type-landing_pages .col-md-4 .bottom-block {
+    display: none;
+}
+@media (max-width: 767px) {
+  .content-type-landing_pages .col-md-4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+.content-type-content ul {
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.content-type-content h5 {
+    margin-top: 30px;
+}
+.content-type-content table td, .content-type-content table th {
+    background-color:#FFF!important;
+    border:0;
+    padding: 5px;
+}
+/*
+Landing pages with bullets
+*/
+h6 a {
+    display: list-item!important;
+    margin-left : 1em!important;
+}/* End custom CSS */
